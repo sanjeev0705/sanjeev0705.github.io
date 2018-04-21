@@ -1,0 +1,53 @@
+
+.gallery{
+display: flex;
+flex-direction: row;
+width: 100%;
+border:thin solid blue;
+
+}
+.gallery img{
+	height: 125px;
+	width: 125px;
+	margin:25px;
+	padding: 2px;
+	border:thin solid black;
+
+}
+
+.gallery img:hover{
+	width: 400px;
+    height: 300px;
+    transition: 1.5s;
+}
+
+.gallery1 a{
+	color: black;
+	font-size:4em;
+	width: 150px;
+
+
+}
+
+.gallery1 a:hover{
+	color: green;
+	font-size: 5em; 
+}
+
+h1{
+	color: blue;
+	margin: 5%;
+}
+
+@media screen and (max-width: 650px){
+	.gallery{flex-direction: column;}
+	.gallery img{margin:10px;}
+	.gallery img:hover{
+		width: 200px;
+		height: 150px;}
+
+	.gallery1 a{font-size: 2em;}
+	
+	.gallery1 a:hover{font-size: 3em;}
+}
+

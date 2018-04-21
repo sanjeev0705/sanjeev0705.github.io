@@ -1,0 +1,52 @@
+
+.rem{
+	display: inline-flex;
+	margin: 1%;
+	width:50%;
+	text-align:left;
+	margin-left: 20px;
+	} 
+
+.remb{
+	display: inline-flex;
+	margin: 1%;
+	width:75%;
+	margin-left: 10px;
+
+}
+
+
+.rema{
+	height:auto;
+	width: 100%;
+	margin: 10px;
+
+
+}
+.remc{
+	width: 75%;
+	margin: 10px;
+	
+	
+}
+.remd{
+	width: 98%;
+	margin:1%;
+}
+h3{
+	font-size: 30px;
+    text-align: left;
+    color: red ;
+}
+p{
+	margin-left: 1%;
+	color: black;
+}
+.rem:hover, .remb:hover, .remd:hover{
+	background-color: rgba(166, 181, 210, 0.5);
+	transition: 1s; 
+}
+
+@media screen and (max-width: 600px){
+	body{font-size: 1em;}
+}

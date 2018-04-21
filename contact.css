@@ -1,0 +1,62 @@
+	.sec{
+		display: flex;
+		flex-direction: row;
+		width: 98%;
+		margin: 1%;
+	}
+	.talk{
+		display: flex;
+		flex-direction:column;
+		width: 96%;margin: 1%;
+		color: #13016D;
+		font-size: 1.5em;
+		background-color: rgba(204, 229, 255, 0.4);
+		text-align: center;
+
+	}
+	.absoluted{
+		width: 96%;
+		margin: 1%;
+		text-decoration-color: black;
+		margin-left: 30px;
+	}
+	.absoluted i{
+		font-size: 1em;
+		color: blue;
+
+	}
+
+	.abouted{
+		width: 96%;
+		margin: 1%;
+	}
+	form{
+		margin-left: 5%;
+	}
+	h3{
+		text-align: center;
+	
+	}
+	iframe{
+		margin-left: 15%;
+		border-radius: 2%;
+		width: 70%;
+	}
+
+	textarea{
+		width:400px; height:250px;
+	}
+
+	@media screen and (max-width: 650px){
+	.sec{flex-direction: column;}
+	iframe{
+		height: auto;
+	}
+	textarea{
+		width:200px;
+		height: 100px;
+	}
+}
+	
+
+

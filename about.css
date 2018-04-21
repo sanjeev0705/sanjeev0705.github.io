@@ -1,0 +1,29 @@
+.pic{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-left: 45%;
+
+}
+.tab2, .tab1{
+	width:80%;
+	margin:2% 10%; 
+	text-align: justify;
+	color: white;
+	
+}
+.tab2:hover, .tab1:hover{
+	background-color: rgba(0,0,0,0.6);
+	transition: 0.1s;
+}
+section h1{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 650px){
+	.pic{
+		margin-left: 30%;
+		height: 100px;
+		width: 100px;}
+	}

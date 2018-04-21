@@ -1,0 +1,50 @@
+
+.multi{display: flex; 
+	flex-direction: row;
+    margin:4%;
+    background-color: rgba(204, 229, 255, 0.3);
+    border: 1px solid black;
+    box-shadow: 15px 15px 10px black;
+    width:92%;
+    
+}
+
+
+
+.div01{
+	width: 50%;
+	margin: 1% -5% 1% 8% ;
+}
+
+.div01 img{
+height:375px;
+width:375px ; 
+border-radius: 50%;
+opacity: 0.8;
+padding:4% 1%;
+
+
+}
+
+.div01 img:hover{
+opacity: 1;
+transition: 0.5s;
+}
+.div02{
+	width: 50%;
+	margin-top: 5%;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 600px){
+	.multi{flex-direction: column;}
+	.div02, .div01{ width: 100%;
+		
+	}
+	.div01 img{
+		height:auto;
+		width:175px;
+		margin-bottom: -15%;
+	}
+
+}
